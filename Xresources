@@ -1,0 +1,98 @@
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
+
+XTerm*background: #1b181f
+XTerm*foreground: #e7e7e7
+XTerm*pointerColor: #16A085
+XTerm*faceName: Fixed
+XTerm*faceSize: 11
+
+*background:                      #1b181f
+*foreground:                      #657b83
+*fading:                          15
+*fadeColor:                       black
+*cursorColor:                     #16A085
+*pointerColorBackground:          #2B2C2B
+*pointerColorForeground:          #16A085
+
+!! black dark/light
+*color0:                          #232423
+*color8:                          #282928
+
+!! red dark/light
+*color1:                          #BA2922
+*color9:                          #CC372C
+
+!! green dark/light
+*color2:                          #7E807E
+*color10:                         #8D8F8D
+
+!! yellow dark/light
+*color3:                          #4C4F4D
+*color11:                         #4E524F
+
+!! blue dark/light
+*color4:                          #16A085
+*color12:                         #13BF9D
+
+!! magenta dark/light
+*color5:                          #43746A
+*color13:                         #487D72
+
+!! cyan dark/light
+*color6:                          #00CCCC
+*color14:                         #00D1D1
+
+!! white dark/light
+*color7:                          #E0E0E0
+*color15:                         #E8E8E8
+
+Xcursor.theme: xcursor-breeze-snow
+Xcursor.size:                     0
+
+XTerm*background:                 #1b181f
+XTerm*foreground:                 #fdf6e3
+XTerm*reverseVideo:               on
+XTerm*faceName:                   Terminus:size=11:antialias=true
+XTerm*selectToClipboard:          true
+
+
+!-- URXVT --!
+
+
+URxvt.font:                       9x15
+
+URxvt.depth:                      32
+URxvt.background:                 [100]#1b181f
+URxvt*scrollBar:                  false
+URxvt*mouseWheelScrollPage:       false
+URxvt*cursorBlink:                true
+URxvt*background:                 black
+URxvt*foreground:                 white
+URxvt*saveLines:                  5000
+URxvt.internalBorder: 20
+
+URxvt*background:   #1b181f
+URxvt*foreground:   #c5c8c6
+URxvt*cursorColor:   #c5c8c6
+URxvt*color0:   #322c39
+URxvt*color1:   #8d375a
+URxvt*color2:   #5e8833
+URxvt*color3:   #D0B03C
+URxvt*color4:   #5f809d
+URxvt*color5:   #76678f
+URxvt*color6:   #5e8d87
+URxvt*color7:   #707880
+URxvt*color8:   #4c4356
+URxvt*color9:   #ab4f74
+URxvt*color10:   #7aa44e
+URxvt*color11:   #db9d4f
+URxvt*color12:   #799ab8
+URxvt*color13:   #9587ae
+URxvt*color14:   #8abeb7
+URxvt*color15:   #c5c8c6
