@@ -1,0 +1,123 @@
+##
+# Files
+
+ mpd_music_dir = "~/Music"  
+ lyrics_directory  = ~/.ncmpcpp/lyrics
+ ncmpcpp_directory  = ~/.ncmpcpp
+
+ mpd_host = "localhost"
+ mpd_port = "6600"  
+ mpd_connection_timeout = "5"  
+ mpd_crossfade_time = "5"  
+
+
+ # Playlist
+ playlist_disable_highlight_delay = "0"  
+ playlist_display_mode = "columns"  
+ playlist_show_remaining_time = "no"
+
+ browser_display_mode = "columns"  
+ autocenter_mode = "yes"  
+ fancy_scrolling = "no"  
+ follow_now_playing_lyrics = "yes"  
+ display_screens_numbers_on_start = "yes"  
+ ignore_leading_the = "yes"  
+ lyrics_database = "1"  
+
+
+ colors_enabled = yes
+empty_tag_color = "white"
+header_window_color = "white"
+volume_color = "white"
+state_line_color = "black"
+state_flags_color = "white"
+main_window_color = "white"
+color1 = "white"
+color2 = "green"
+progressbar_color = 9
+progressbar_elapsed_color = "white"
+statusbar_color = "white"
+alternative_ui_separator_color = "black"
+visualizer_color = "magenta"
+window_border_color = "white"
+active_window_border = "white"
+
+alternative_header_first_line_format = "$8$aqqu$/a$b {%t}|{%f} $/b$8$atqq$/a$9"
+alternative_header_second_line_format = "{{$8%a}{$8 - %b$9}{$8 (%y)$8}}|{%D$9}"
+
+song_list_format = "{$7%a $6> $5}{%t$6$R$b} [{%l}]"
+
+#song_columns_list_format = "(20)[magenta]{a} (30)[white]{t} (5)[cyan]{lr}(38)[blue]{br}"
+song_columns_list_format =  "(20)[magenta]{a} (50)[white]{t} (20)[cyan]{b} (7f)[magenta]{lr}"
+
+
+#song_status_format = " $4%a $2%t "
+song_status_format = "$7%a $6$b> $5%t $6$b> $2%b$6"
+
+user_interface =  "alternative"
+default_place_to_search_in = "database"
+
+
+# visualizer
+
+audio_output {
+       type            "fifo"
+       name            "Visualizer feed"
+       path            "/tmp/mpd.fifo"
+       format          "44100:16:2"
+}
+
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "FIFO"
+visualizer_sync_interval = "30"
+#visualizer_type = "wave" (spectrum/wave)
+visualizer_type = "spectrum" (spectrum/wave)
+visualizer_in_stereo = "yes"
+visualizer_look = "●▮"
+
+
+## Navigation ##
+cyclic_scrolling = "yes"
+header_text_scrolling = "yes"
+jump_to_now_playing_song_at_start = "yes"
+lines_scrolled = "2"
+
+## Other ##
+system_encoding = "utf-8"
+regular_expressions = "extended"
+
+volume_change_step = 3
+
+## Selected tracks ##
+selected_item_prefix = "* "
+discard_colors_if_item_is_selected = "yes"
+
+## Seeking ##
+incremental_seeking = "yes"
+seek_time = "4"
+
+## Visibility ##
+header_visibility = "no"
+statusbar_visibility = "yes"
+titles_visibility = "no"
+
+#PROGRESSBAR
+progressbar_look = "━━━"
+
+# Now Playing
+now_playing_prefix = "$b$2> "
+now_playing_suffix = "$8$/b<"
+
+
+autocenter_mode = "yes"
+centered_cursor = "no"
+
+# Misc
+display_bitrate = "yes"
+# enable_window_title = "no"
+follow_now_playing_lyrics = "yes"
+ignore_leading_the = "yes"
+empty_tag_marker = ""
+
+
+allow_for_physical_item_deletion = no
